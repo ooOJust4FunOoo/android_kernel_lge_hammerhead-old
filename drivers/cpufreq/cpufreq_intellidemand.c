@@ -2119,7 +2119,7 @@ int set_input_event_min_freq(int cpufreq)
         return 0;
 }
 
-void set_input_event_min_freq_by_cpu ( int cpu_nr, int cpufreq){
+void set_input_event_min_freq_by_cpu_intellidemand ( int cpu_nr, int cpufreq){
         input_event_min_freq_array[cpu_nr-1] = cpufreq;
 }
 
